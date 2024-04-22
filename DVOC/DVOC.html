@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="DVOC" content="content,education,develpoment,testing,programming">
+   <title>DVOC Institue</title>
+   <style>
+      * {
+         /* margin: 0;
+         padding: 0; */
+         box-sizing: border-box;
+      }
+
+      .d1 {
+         color: white;
+         background-color: black;
+         height: 30px;
+      }
+
+      .d1 a {
+         float: right;
+         padding: 10px
+      }
+
+      .d2 {
+         background-color: white;
+         height: 100px
+      }
+
+      .d2 a {
+         border: 1px solid white;
+         margin: 20px;
+         float: right;
+         color: black;
+         text-decoration: none;
+         padding: 10px;
+         font-size: 20px;
+         font-weight: bold;
+         padding-top: 30px
+      }
+
+      .d2 a:hover {
+         color: orange;
+         text-decoration: underline
+      }
+
+      .d2 img {
+         padding-left: 30px
+      }
+
+      .s1 {
+         color: white;
+         background-image: url(IT.jpg);
+         border: 1px solid white;
+         width: 1340px;
+         height: 500px;
+         display: flex;
+      }
+
+      .h1s1 {
+         margin-top: 180px;
+         padding-left: 100px;
+         font-size: 40px;
+         padding-bottom: 10px;
+      }
+
+      .p1s1 {
+         padding-left: 100px;
+         font-size: 20px
+      }
+
+      .d2s1 {
+         color: black;
+         padding-left: 858px;
+         position: absolute;
+      }
+
+      fieldset {
+         background-color: white;
+         height: 24vmax;
+         width: 25vmax;
+         margin-top: 56px;
+      }
+
+      .d2s1 a {
+         text-decoration: none;
+         color: black;
+      }
+
+      .d2s1 button {
+         background-color: orange;
+         color: white;
+         height: 40px;
+         font-weight: bold;
+         font-size: 15px;
+         border: none;
+         border-radius: 8px;
+         width: 107px;
+      }
+
+      .h2s2 {
+         text-align: center;
+         font-size: 40px;
+         color: black
+      }
+
+      .h2s2 {
+         text-decoration: underline;
+         text-decoration-color: orange
+      }
+
+      .d3 {
+         display: flex;
+         justify-content: space-around
+      }
+
+      .s3 {
+         background-color: #F7F9F9;
+      }
+
+      .h3s3 {
+         text-align: center;
+         font-size: 40px;
+      }
+
+      .d4 {
+         display: flex;
+         justify-content: space-around
+      }
+
+      .d4 img {
+         box-shadow: -3px 3px 9px 0px
+      }
+
+      .d4 h1 {
+         font-family: arial;
+         font-size: 30px
+      }
+
+      .d4 p {
+         font-family: arial
+      }
+
+      .d5 {
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center
+      }
+
+      .d5 a {
+         text-decoration: none;
+         color: black
+      }
+
+      .d6 {
+         text-align: center;
+      }
+
+      .d6 button {
+         background-color: #D35400;
+         color: white;
+         height: 50px;
+         font-weight: bold;
+         font-size: 15px;
+         border: orange;
+         border-radius: 8px;
+         width: 170px;
+      }
+
+      .d6 button:hover {
+         color: orange;
+         background-color: white;
+         border: 1px solid orange
+      }
+
+      .h4s4 {
+         font-weight: bold;
+         font-size: 30px;
+         text-align: center;
+         text-decoration: underline;
+         text-decoration-color: orange
+      }
+
+      .s4 {
+         width: 100%;
+      }
+
+      .parent {
+         /*background-color:1px solid Red;*/
+         display: flex;
+         flex-wrap: wrap;
+         column-gap: 244px;
+         width: 100%;
+         row-gap: 55px;
+
+
+      }
+
+      .child1 {
+         Border: 1px solid white;
+         height: 111px;
+         width: 281px;
+         display: flex;
+         border-radius: 8px;
+         box-shadow: 0px 4px 8px 0px;
+
+
+      }
+
+      .yellodiv {
+         background-color: #F39C12;
+         font-size: 35px;
+         font-weight: bold;
+         color: white;
+         border: 1px solid #F39C12;
+         border-radius: 3px;
+         width: 90px;
+         /* height:80px */
+         height: 100%;
+         padding: 10px;
+      }
+
+      .whitediv {
+         font-size: 20px;
+         padding: 10px;
+      }
+
+      .whitediv .c {
+         color: grey;
+         font-size: 20px;
+      }
+
+      .whitediv .d {
+         font-weight: bold
+      }
+
+      .whitediv .e {
+         color: grey;
+         font-size: 20px;
+      }
+
+      .s5 {
+         background-color: #0B5345;
+         height: 420px;
+         display: flex;
+         padding-top: 32px;
+         margin-top: 32px;
+         /*justify-content: around*/
+      }
+
+      .s5 h1 {
+         /*border:1px solid red;*/
+         color: white;
+         font-size: 40px;
+         margin-left: 23px;
+         padding-top: 46px;
+      }
+
+      .s5 p {
+         color: white;
+         font-size: 20px;
+         margin-left: 25px;
+      }
+
+      .s5 button {
+         background-color: #D35400;
+         color: white;
+         height: 50px;
+         font-weight: bold;
+         font-size: 15px;
+         border: orange;
+         border-radius: 8px;
+         width: 170px;
+         margin-left: 23px;
+         margin-top: 19px;
+      }
+
+
+      .v1 {
+         border-left: 1px solid white;
+         height: 370px;
+         position: absolute;
+         left: 50%;
+         padding-top: 1px;
+      }
+
+      .d6s5 img {
+         /*border:2px solid red;*/
+         padding-left: 333px;
+         height: 349px;
+         padding-top: 41px;
+      }
+
+      .s6 h1 {
+         font-size: 30px;
+         text-align: center;
+         text-decoration: underline;
+         text-decoration-color: orange;
+      }
+
+      .s6 p {
+         font-size: 20px;
+         text-align: justify;
+         line-height: 1.7em;
+         margin: 48px 185px 48px 184px;
+      }
+
+      .d7s6 {
+         display: flex
+      }
+
+      .d7s6 div {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center
+      }
+
+      .d7s6 p {
+         margin: 15px 109px 40px 103px;
+         text-align: center;
+         font-size: 16px;
+         font-weight: bold;
+         font-family: "Muli", Sans-serif
+      }
+
+      .s7 {
+         background-image: url(graduate.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 314px;
+         color: white;
+         position: relative;
+         isolation: isolate
+      }
+
+      .s7::after {
+         position: absolute;
+         content: '';
+         z-index: -1;
+         inset: 0;
+         background: #E67E22;
+         opacity: 0.5;
+      }
+
+      .s7 h1 {
+         font-size: 30px;
+         /*border:1px solid red;*/
+         padding-top: 28px;
+         margin-left: 149px;
+      }
+
+      .s7 p {
+         font-size: 20px;
+         /*border:1px solid red;*/
+         margin-left: 144px;
+         margin-top: 4px;
+         ;
+      }
+
+      .s7 button {
+         background-color: #D35400;
+         color: white;
+         height: 50px;
+         font-weight: bold;
+         font-size: 15px;
+         border: orange;
+         border-radius: 8px;
+         width: 170px;
+         margin-left: 135px;
+         margin-top: 19px;
+      }
+
+      .s8 h1 {
+         font-size: 30px;
+         text-align: center;
+         text-decoration: underline;
+         text-decoration-color: orange;
+      }
+
+      .d8s8 {
+         display: flex;
+         justify-content: space-evenly;
+      }
+
+      .s9 {
+         background-color: #F5CBA7;
+         height: 455px;
+      }
+
+
+      .s9 h1 {
+         font-size: 30px;
+         text-align: center;
+         text-decoration: underline;
+         text-decoration-color: orange;
+      }
+
+      .d9s9 {
+         display: flex;
+         justify-content: space-evenly;
+      }
+
+      .d12 {
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center
+      }
+
+      .d12 a {
+         text-decoration: none;
+         color: black
+      }
+
+      .h10s10 {
+         font-size: 30px;
+         text-align: center;
+         text-decoration: underline;
+         text-decoration-color: orange;
+      }
+
+      .d11 {
+         display: flex;
+         justify-content: space-around
+      }
+
+      .s11 {
+         background-color: #0B5345;
+         height: 275px;
+         color: white;
+      }
+
+      .d13s11 h1 {
+         font-size: 40px;
+         margin-left: 228px;
+         padding-top: 45px
+      }
+
+      .d13s11 p {
+         font-size: 20px;
+         margin-left: 233px;
+      }
+
+      .v2 {
+         border-left: 1px solid white;
+         height: 273px;
+         position: absolute;
+         left: 50%;
+         padding-top: 1px;
+      }
+
+
+      .d14s11 button {
+         background-color: #D35400;
+         color: white;
+         height: 50px;
+         font-weight: bold;
+         font-size: 15px;
+         border: orange;
+         border-radius: 8px;
+         width: 170px;
+         margin-left: 167px;
+         margin-top: 134px;
+      }
+
+      .d14s11 button:hover {
+         color: orange;
+         background-color: white;
+         border: 1px solid orange
+      }
+
+      .s11 {
+         display: flex;
+      }
+
+      .s12 {
+         display: flex;
+         background-color: #D5D8DC;
+         font-size: 20px
+      }
+
+      .d15s12 {
+         margin-left: 35px;
+      }
+
+
+      .d16s12 a {
+         text-decoration: none;
+         color: black;
+      }
+
+      .d16s12 {
+         margin-left: 90px;
+      }
+
+      .d17s12 a {
+         text-decoration: none;
+         color: black;
+      }
+
+      .d17s12 {
+         margin-left: 82px;
+      }
+
+      .d18s12 {
+         margin-left: 83px;
+      }
+   </style>
+
+
+</head>
+
+<body>
+
+
+   <div class="d1">
+      +91 7021733916
+      Info@dvoc.in
+      <a href="https://www.facebook.com/page.dvocinstitute" target=_blank><img src="fb.png" width=20px></a>
+
+      <a href="https://www.instagram.com/dvoc_institute/" target=_blank><img src="insta.png" width=20px></a>
+
+      <a href="https://twitter.com/DVOC_INSTITUTE" target=_blank><img src="twitter.png" width=20px></a>
+
+      <a href="https://www.linkedin.com/company/dvoc-institute" target=_blank><img src="linkedin.png" width=20px></a>
+   </div>
+
+   <header>
+      <div class="d2">
+         <img src="https://www.dvoc.in/wp-content/uploads/2021/08/dvoc-LOGO_1-2-1024x877.png" width=115px height=100px>
+
+         <a href="https://www.dvoc.in/about-us/">About us</a>
+
+         <a href="https://www.dvoc.in/contact/">Contact us</a>
+
+         <a href="https://www.dvoc.in/events/">Our Events</a>
+
+         <a href="https://www.dvoc.in/">Home</a>
+      </div>
+   </header>
+
+
+   <main>
+      <section class="s1">
+         <div class="d1s1">
+            <h1 class="h1s1">CAREER EDGE</h1>
+
+            <p class="p1s1"> Upskill yourself with the most needed IT Tools</p>
+
+         </div>
+
+         <div class="d2s1">
+            <fieldset>
+               <form>
+                  <h1> TALK TO OUR<br> <strong style="color:orange">EXPERTS</strong> </h1>
+                  <label for=" "></label>
+                  <input type="text" name="name" placeholder="Your Name"><br><br>
+
+                  <label for=" "></label>
+                  <input type="email" name="email" placeholder="Your Email"><br><br>
+
+                  <label for=" ">+91 </label>
+                  <input type="tel" name="phone"><br>
+
+                  <h5>Please note that your personal data will be used as per the <a
+                        href="https://www.dvoc.in/events/">privacy policy*</a></h5>
+
+                  <button type="submit">Submit</button>
+
+         </div>
+
+      </section>
+
+      <section class="s2">
+         <h1 class="h2s2">Our Highlights</h1>
+
+         <div class="d3">
+            <img src="https://www.dvoc.in/wp-content/uploads/2020/09/counselor.png" width=100px>
+            <p class="p2s2"><strong> Expert Faculty</strong><br>get guidance from our expert faculty</p>
+
+            <img src="https://www.dvoc.in/wp-content/uploads/2020/11/skill-1.png" width=100px>
+            <p class="p2s2"><strong> Relevent skill training</strong><br>With Industry-level skills get Job ready</p>
+
+            <img src="https://www.dvoc.in/wp-content/uploads/2020/11/certificate.png" width=100px>
+            <p class="p2s2"><strong>DVOC Certificate</strong><br>Get certified by completing DVOC Programs</p>
+         </div>
+
+         <section class="s3">
+            <h1 class="h3s3">Popular Courses</h1>
+            <div class="d4">
+               <div class="d5">
+                  <a href="https://www.dvoc.in/advanced-program-in-full-stack-software-development/">
+                     <img src="https://www.dvoc.in/wp-content/uploads/2022/04/re-full-stack-developer-300x200.jpg.webp"
+                        alt="">
+                     <h1>Advance Program In Full Stack Software Development</h1>
+                  </a>
+                  <p>This program will enable you to develop both front end and back end of a website or an
+                     application</p>
+
+               </div>
+               <div class="d5">
+                  <a href="https://www.dvoc.in/web-designing-with-html5/">
+                     <img
+                        src="https://www.dvoc.in/wp-content/uploads/2020/10/Certificate-in-Web-Designing-Using-HTML5-3-300x200.jpeg"
+                        alt="">
+                     <h1>Web Designing With HTML5</h1>
+                  </a>
+                  <p>The course web designing with HTML5 will equip you with the latest web designing standards and
+                     practices, which will make you an efficient programmer</p>
+
+               </div>
+               <div class="d5">
+                  <a href="https://www.dvoc.in/financial-accounting-using-tally-prime/">
+                     <img src="Tally.jpeg" alt="">
+                     <h1>Financial Accounting Using Tally Prime</h1>
+                  </a>
+                  <p>The objective of this course is to train individuals completely in computerized accounting using
+                     Tally Prime to pursue a career in this field</p>
+
+               </div>
+            </div>
+            <div class="d6"><a href="https://www.dvoc.in/all-courses/"><button name="button" type="button">View all
+                     Courses</button></div></a>
+         </section>
+
+
+         <section class="s4">
+            <h1 class="h4s4"> Our Upcoming Batches</h1>
+            <div class="parent">
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 12</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">MON TUE WED</div>
+                     <div class="d">Graphic Desinging</div>
+                     <div class="e">5:00-6:30 PM </div>
+                  </div>
+               </div>
+
+
+
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 21</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">MON TUE WED</div>
+                     <div class="d">Digital Marketing
+                     </div>
+                     <div class="e">3:30-5:30 PM
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 17</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">TUE-THRU-SAT</div>
+                     <div class="d">Tally Prime
+                     </div>
+                     <div class="e">1:00-3:00 PM
+                     </div>
+                  </div>
+               </div>
+
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 17</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">MON-TO-SAT</div>
+                     <div class="d">Fin-Tech & Business Analytics
+                     </div>
+                     <div class="e">1:00-3:00 PM
+                     </div>
+                  </div>
+               </div>
+
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 3</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">MON-TO-SAT</div>
+                     <div class="d">Full Stack Development
+                     </div>
+                     <div class="e">3:00-5:00 PM
+                     </div>
+                  </div>
+               </div>
+
+               <div class="child1">
+                  <div class="yellodiv">
+                     <div class="a"> Aug</div>
+                     <div class="b"> 3</div>
+                  </div>
+
+                  <div class="whitediv">
+                     <div class="c">MON-TO-SAT</div>
+                     <div class="d">Data Analytics
+                     </div>
+                     <div class="e">09:30 - 11:30 AM
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+         <section class="s5">
+            <div class="d5s5">
+               <h1>Get your Certificate</h1>
+               <p>Get certified by completing DVOC programs</p>
+               <a href="https://www.dvoc.in/all-courses/"><button name="button" type="button">Get Yours Now</button>
+            </div></a>
+            </div>
+
+            <div class="v1"></div>
+
+            <div class="d6s5">
+               <img src="https://www.dvoc.in/wp-content/uploads/2022/03/certno1-copy.png.webp">
+            </div>
+         </section>
+
+         <section class="s6">
+            <h1>Why to choose us?</h1>
+            <p><b>DVOC INSTITUTE</b> focus on delivering practical knowledge, as it is the key to a successful digital
+               world career.
+               With our skill-enhancing courses, students can learn the latest technologies that will help them to grow
+               beyond primary education and learn some real-life skills.
+               DVOC will help the schools, colleges, and universities establish vocational programs to help their
+               students be employable for the Industry.</p>
+
+            <div class="d7s6">
+               <div>
+                  <img src="https://www.dvoc.in/wp-content/uploads/2020/11/concept-1.png.webp">
+                  <p>Concept and Practical <br>Oriented Training</p>
+               </div>
+
+               <div>
+                  <img src="https://www.dvoc.in/wp-content/uploads/2020/09/general-session.png" width=100px
+                     height=100px>
+                  <p>Live Sessions<br> –Classroom like Experience</p>
+               </div>
+
+               <div>
+                  <img src="https://www.dvoc.in/wp-content/uploads/2020/11/increase-1.png">
+                  <p>30 years of Experienced Members of <br>Advisory Board</p>
+               </div>
+
+            </div>
+
+         </section>
+
+         <section class="s7">
+            <h1>Events</h1>
+            <p>Events are the best way to get <br>connected and learn from the<br> professionals.</p>
+
+            <a href="https://www.dvoc.in/events/"><button name="button" type="button">See all Events</button></div></a>
+         </section>
+
+
+         <section class="s8">
+            <h1>Our Partners</h1>
+            <div class="d8s8">
+               <div><img src="https://www.dvoc.in/wp-content/uploads/2023/02/logo_klic-300x141.png.webp" width=100px
+                     height=100px></div>
+               <div><img src="https://www.dvoc.in/wp-content/uploads/2023/02/MKCL-e1676288624864.png.webp" width=100px
+                     height=100px></div>
+               <div><img src="https://www.dvoc.in/wp-content/uploads/2021/08/tally-150x150.png.webp" width=100px
+                     height=100px></div>
+               <div><img src="https://www.dvoc.in/wp-content/uploads/2023/03/logo-mscit-e1677824344510.png" width=100px
+                     height=100px></div>
+            </div>
+         </section>
+
+         <section class="s9">
+            <h1>Students Feedback</h1>
+            <div class="d9s9">
+               <img src="ss1.png">
+               <img src="ss2.png">
+            </div>
+
+         </section>
+         <section class="s10">
+            <h1 class="h10s10">Our Blogs and Articles</h1>
+            <div class="d11">
+               <div class="d12">
+                  <a href="https://www.dvoc.in/coronavirus-has-changed-it-industry/">
+                     <img src="https://www.dvoc.in/wp-content/uploads/2021/03/wfm-featured-img-300x125.jpg" alt="">
+                     <h1>Coronavirus has changed the IT Industry</h1>
+                  </a>
+                  <p>Months ago, when coronavirus surfaced and plagued the world, no one thought the repercussions would
+                     last this long.
+                     But no matter where you live or whichever economical strata you belong to, the COVID-19 crisis
+                     affected everyone.</p>
+
+               </div>
+               <div class="d12">
+                  <a href="https://www.dvoc.in/importance-of-vocational-training/">
+                     <img
+                        src="https://www.dvoc.in/wp-content/uploads/2021/03/importance-of-education-featured-img-300x125.jpg"
+                        alt="">
+                     <h1>Importance of Vocational Training</h1>
+                  </a>
+                  <p>The need and demand for vocational training have risen in the past decade.
+                     Not only can it lead to a higher chance of employment but can also help you with developing new
+                     skills.</p>
+
+               </div>
+               <div class="d12">
+                  <a href="https://www.dvoc.in/new-age-vocational-courses-for-new-age-careers/">
+                     <img src="https://www.dvoc.in/wp-content/uploads/2021/01/kid-studying-300x125.jpg.webp" alt="">
+                     <h1>New Age Vocational Courses for New Age Careers</h1>
+                  </a>
+                  <p>New age skills are the need of the 21st century and vocational courses fulfil this need.
+                     Rather than cramming your brain with theories, they develop your practical skills</p>
+
+               </div>
+            </div>
+
+
+            <section class="s11">
+               <div class="d13s11">
+                  <h1>Contact for any Queries</h1>
+                  <p>Feel free to get in touch with our team.</p>
+               </div>
+
+               <div class="v2"></div>
+
+               <div class="d14s11"><a href="https://www.dvoc.in/events/"><button name="button" type="button">Contact
+                        us</button></div></a></div>
+
+            </section>
+
+            <section class="s12">
+
+               <div class="d15s12">
+                  <h1>About DVOC Institute</h1>
+                  <p>DVOC Institute is a specialized training institute for<br> students to develop technical skills by
+                     learning from<br> our industry experts.</p>
+
+                  <span class="material-symbols-outlined">
+                     call
+                  </span> +91 7021733916
+
+                  <span class="material-symbols-outlined">
+                     mail
+                  </span> info@dvoc.in
+
+               </div>
+
+               <div class="d16s12">
+                  <h1> Our Courses</h1>
+                  <a href="https://www.dvoc.in/all-courses/schools/"><b>Schools</b></a><br><br>
+                  <a href="https://www.dvoc.in/all-courses/colleges/"><b>Colleges</b></a><br><br>
+                  <a href="https://www.dvoc.in/all-courses/graduates/"><b>Graduates</b></a><br><br>
+                  <a href="https://www.dvoc.in/all-courses/working-professionals/"><b>Working<br>
+                        Professionals</b></a><br><br>
+                  <a href="https://www.dvoc.in/all-courses/enterprises/"><b>Enterprises</b></a>
+               </div>
+
+               <div class="d17s12">
+                  <h1>Important Links</h1>
+                  <a href="https://www.dvoc.in/faqs/"><b>FAQs</b></a><br><br>
+                  <a href="https://www.dvoc.in/privacy-policy/"><b>Privacy Policy</b></a><br><br>
+                  <a href="https://www.dvoc.in/terms-of-use/"><b>Terms of use</b></a><br><br>
+                  <a href="https://www.dvoc.in/refund/"><b>Refund Policy</b></a>
+               </div>
+
+               <div class="d18s12">
+                  <h1>Location</h1>
+                  <h4>Andheri Branch</h4>
+                  <p>101, 1st Floor, Matru Chhaya Building, <br>
+                     Old Nagardas Road, Mumbai: 400069</p>
+
+                  <h4>Vile Parle Branch</h4>
+                  <p>103, 1st Floor, Hari Leela, Off Nehru Road, <br>
+                     Mumbai 400057</p>
+
+                  <h4>South Mumbai Branch
+                  </h4>
+                  <p>Fellowship School, August Kranti Maidan,<br>
+                     Grant Road (W) Mumbai: 400026</p>
+
+
+            </section>
+
+
+
+
+
+   </main>
+
+
+
+
+
+
+</body>
+
+</html>

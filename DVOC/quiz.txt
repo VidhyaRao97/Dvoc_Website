@@ -1,0 +1,62 @@
+1. Who invented Java Programming?
+a) Guido van Rossum
+b) James Gosling
+c) Dennis Ritchie
+d) Bjarne Stroustrup
+
+2.Which of the following approach is used by C++?
+a) Left-right
+b) Right-left
+c) Bottom-up
+d) Top-down
+
+3. Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+
+4.Which environment variable is used to set the java path?
+a) MAVEN_Path
+b) JavaPATH
+c) JAVA
+d) JAVA_HOME
+
+5.What month of the year has 28 days?
+a)All of them
+b)Feb
+c)Mar
+d)Jan
+
+6.What can’t talk but will reply when spoken to?
+a) An echo
+b)Person
+c)Animal
+d)Birds
+
+7.Smallest state of India is?
+a)Manipur
+b)Sikkim
+c)Goa
+d)Nagaland
+
+8.What is the capital of Australia?
+
+a) Sydney
+b) Melbourne
+c) Canberra
+d) Perth
+
+9.Which planet is known as the "Red Planet"?
+
+a) Venus
+b) Mars
+c) Jupiter
+d) Saturn
+
+10.Which country is known as the "Land of the Rising Sun"?
+
+a) China
+b) South Korea
+c) Japan
+d) Thailand
